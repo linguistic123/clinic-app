@@ -1,3 +1,10 @@
+This is the client side for the clinic registration app. Built with React and Antd Css framework. I wanted this to be different from the usual UIs we see everyday but still have a solid foundation with regards to ease of use and UX. Also I wanted to avoid CSS in JS as much as I could. 
+
+Features:
+
+1. CRUD operations for patients
+2. CRUD operations for invoices
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

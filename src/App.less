@@ -1,0 +1,39 @@
+@import '~antd/dist/antd.less';
+
+.layout {
+    height: 100vh;
+}
+
+.app-header {
+    box-shadow: 0 8px 8px #f0f1f2;
+}
+
+.logo {
+    margin-bottom: 0!important;
+    height: 60px!important;
+    & span:first-of-type {
+        margin-left: -18px!important;
+        min-width: 53px;
+    }
+    + li:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.logo-text {
+    font-size: 17px;
+    position: relative;
+    bottom: 10px;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+  // FIX HOVER COLOR TO SECONDARY. DECLARE THE VARIABLES IN THIS FILE
+  &:hover {
+      color: red;
+  }
+}
